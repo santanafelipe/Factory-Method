@@ -12,7 +12,8 @@ public class Program {
  
     public static void main(String[] args) {
         
-        GameBoyScene scene = new GameBoyScene();
+        //GameBoyScene scene = new GameBoyScene();
+        SuperNintendoScene scene = new SuperNintendoScene();
         scene.render();
     }
 }

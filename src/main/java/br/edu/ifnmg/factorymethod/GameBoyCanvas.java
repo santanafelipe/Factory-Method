@@ -4,6 +4,8 @@
  */
 package br.edu.ifnmg.factorymethod;
 
+import java.awt.Color;
+
 /**
  *
  * @author Felipe
@@ -12,8 +14,7 @@ public class GameBoyCanvas implements Canvas {
 
     @Override
     public void render() {
-        MainCanvas gameBoy = new MainCanvas();
-        gameBoy.setSize(160, 144);
+        MainCanvas gameBoy = new MainCanvas(160, 144);
         gameBoy.setVisible(true);
     }
 

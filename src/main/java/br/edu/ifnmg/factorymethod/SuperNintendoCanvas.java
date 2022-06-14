@@ -12,8 +12,7 @@ public class SuperNintendoCanvas implements Canvas {
 
     @Override
     public void render() {
-        MainCanvas superNintendo = new MainCanvas();
-        superNintendo.setSize(256, 192);
+        MainCanvas superNintendo = new MainCanvas(256, 192);
         superNintendo.setVisible(true);
     }
 
